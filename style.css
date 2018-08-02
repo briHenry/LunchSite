@@ -1,24 +1,75 @@
-body {
-    bgcolor:#8e0040; 
+ /* #jumboContainer {
+    display: flex;
+    align-content: space-around;
+
+}  */
+
+#change {
+    display: flex;
 }
 
-div { 
-    border: solid 2px black;
-    margin: 8px; 
-    text-align: center; 
-    width: 50%;
+h4, p {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
 }
 
 #header1 {
+    margin: 100px;
     text-align: center; 
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(1, 102, 94);
+    font-size: 50px;
+}
 
+/* th {
+    column-span: "5";
+    /* width: 100%; */
+    /* background-color: brown;
+} */ */
+
+/* td, th {
+    width: 19%;
+    background-color: brown; */
+}
+
+div { 
+    margin: 8px; 
+    text-align: center; 
+    width:90%; 
+    length: 90%;
+    border-radius: 15px;
+    align-content: space-around;
+} 
+
+
+#monDiv {
+    background-color: #900C3F;
+    border: solid 2px #900C3F  ;
+}
+
+#tuesDiv {
+    background-color:#0ABFAE;
+    border: solid 2px #0ABFAE;
+}
+
+#wedDiv {
+    background-color: #EBB400;
+    border: solid 2px #EBB400;
+}
+
+#thursDiv {
+    background-color: #5FB100;
+    border: solid 2px #5FB100;
+}
+
+#friDiv {
+    background-color: #5D05BE;
+    border: solid 2px #5D05BE;
 }
 
 img {
     width: 80%;
+    border-radius: 10px; 
 }
 
-h4 {
-    font: "Century Gothic";
-    color: 
-}
+
