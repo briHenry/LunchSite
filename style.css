@@ -1,46 +1,32 @@
- /* #jumboContainer {
-    display: flex;
+body {
     align-content: space-around;
-
-}  */
-
-#change {
-    display: flex;
-}
-
-h4, p {
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-}
-
-#header1 {
-    margin: 100px;
     text-align: center; 
+}
+#header {
+    width: 100%;
+    text-align: center; 
+    text-align: center;
+    margin: 0;
     font-family: 'Montserrat', sans-serif;
     color: rgb(1, 102, 94);
-    font-size: 50px;
-}
-
-/* th {
-    column-span: "5";
-    /* width: 100%; */
-    /* background-color: brown;
-} */ */
-
-/* td, th {
-    width: 19%;
-    background-color: brown; */
+    /*font-size: 50px;*/
 }
 
 div { 
-    margin: 8px; 
+    margin: 3px; 
     text-align: center; 
-    width:90%; 
-    length: 90%;
+    width:20%; 
     border-radius: 15px;
     align-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
 } 
 
+#allFood {
+    position: relative; 
+    display: flex;
+    width: 100%;
+}
 
 #monDiv {
     background-color: #900C3F;
@@ -70,6 +56,4 @@ div {
 img {
     width: 80%;
     border-radius: 10px; 
-}
-
-
+} 
